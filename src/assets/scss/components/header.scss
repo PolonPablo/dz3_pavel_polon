@@ -1,3 +1,62 @@
 // для каждого компонента нужно импортить переменные, чтобы их использовать
 @import "../utils/parameters";
 @import "../utils/mixins";
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;  
+    color:#081F32;
+}
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header_row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Gelasio;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+.nav_list{
+    display:flex;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.nav_list a{
+    text-decoration: none;
+    margin-right:40px;
+}
+.nav_list a:visited{
+    color:inherit;
+}
+
+.home{color:#1B75BB !important;}
+
+.header_btn{
+    padding: 15px 30px;
+    background: #1B75BB;
+    border-radius: 5px;
+    cursor:pointer;
+    color:#FFFFFF;
+    font-family: Gelasio;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    
+}
+
+

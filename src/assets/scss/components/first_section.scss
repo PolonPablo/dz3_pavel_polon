@@ -1,0 +1,41 @@
+.f_section{
+    padding-top: 217px;
+    background-image: url(../../../../dist/assets/imgs/f_section_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f_section_header{
+    color: #1B75BB;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 500;
+    font-family: Roboto;
+    letter-spacing: 0.1em;
+    margin:0 0 15px;
+}
+.f_section_title{
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 120%;
+    max-width: 456px;
+    font-family: Gelasio;
+    margin:0 0 25px;
+}
+.word_home{
+    color: #1B75BB
+}
+.f_section_text{
+    max-width: 347px;
+    opacity: 0.6;
+    margin:0 0 30px;
+}
+.f_section_btn{
+    padding: 15px 30px;
+    background: #1B75BB;
+    border-radius: 5px; 
+    color: #FFFFFF;
+    margin:0 0 48px;
+}
