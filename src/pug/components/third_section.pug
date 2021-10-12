@@ -1,0 +1,29 @@
+section.third_section
+    .container
+        .ts_text
+            h2.ts_text_title Why you choose us!
+            p.ts_text_p Naturally, it’s becoming even more important for hotel and hospitality brands to stand out from the crowd. Content marketing remains a key way for hotels to do this.
+        .ts_row
+            mixin ts_item(args={})
+                    .ts_col
+                        .ts_item
+                            img.ts_img(src=args.img, alt="img")
+                            .ts_item-title=args.title 
+                            .ts_item-text=args.text
+            +ts_item({
+                    img: "/dist/assets/imgs/ts_row_first_img.svg",
+                title: "Easy booking",
+                text: "The booking process should include minimal steps."})
+            +ts_item({
+                img: "/dist/assets/imgs/ts_row_second_img.svg",
+                title: "Friendly interface",
+                text: "A hotel booking engine with a good user-friendly."})
+            +ts_item({
+                img: "/dist/assets/imgs/ts_row_third_img.svg",
+                title: "Responsibility",
+                text: "You should be able to add rooms to your system."})
+            +ts_item({
+                img: "/dist/assets/imgs/ts_row_fourth_img.svg",
+                title: "Quick order supply",
+                text: "The booking process should include minimal steps."})              
+                     

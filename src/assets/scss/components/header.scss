@@ -1,6 +1,9 @@
 // для каждого компонента нужно импортить переменные, чтобы их использовать
 @import "../utils/parameters";
 @import "../utils/mixins";
+* {
+    box-sizing: border-box;
+}
 html{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +16,8 @@ html{
     color:#081F32;
 }
 .container{
-    max-width: 1140px;
+    max-width: 1170px;
+    padding: 0 15px;
     margin:0 auto;
 }
 .header{

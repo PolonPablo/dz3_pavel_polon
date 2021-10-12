@@ -4,17 +4,20 @@ section.f_section
             h1.f_section_title Stay with us feel like 
                 span.word_home home
             p.f_section_text Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.
-            button.f_section_btn Read More
-            .f_section_row
+            button.f_section_btn Read More        
+            .f_section_row            
                 mixin f_section_item(title, date)
                     .f_section_col
                         .f_section_item
-                            p.fs_item_title=title
-                            p.fs_item_text=date
+                            .fs_item_title=title
+                            .fs_item_text=date
                 +f_section_item("Check in", "10 Feb 2021")
                 +f_section_item("Check out", "13 Feb 2021")
                 +f_section_item("Person", "2 Adults 1 kid")
-                button.fs_row_btn Find room
+                .f_section_col 
+                    .f_section_item
+                        button.fs_row_btn Find room
+
             
 //- mixin item(title, text, img)
                 //-     .business-col
