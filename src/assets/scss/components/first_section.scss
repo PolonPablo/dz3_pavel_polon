@@ -51,18 +51,20 @@
     position:relative;
     bottom:-64px;
     left:-30px;
-   padding:0 20px;
+    padding:0 20px;
 }
 
 .f_section_col{
     flex:1 0 25%;
     padding:0 30px;
+    min-width: 162.51px;
 }
 .f_section_item{
     padding:25px 0;
+    
 }
 .fs_row_btn{
-    padding: 10px 17px;
+    padding: 15px 30px;
     background-color: #1B75BB;
     font-size: 14px;
     border-radius: 5px;
@@ -83,6 +85,13 @@
     font-size: 16px;
     line-height: 160%;
     color: #081F32;
+    opacity: 0.6;
+}
+.item_btn{
+    text-align: center;
+}
+.col_btn{
+    padding: 0 15px;
 }
 // .f_section_table{
 //     background: rgba(255, 255, 255, 0.21);
