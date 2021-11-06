@@ -1,0 +1,123 @@
+.section-third{
+    margin-top: 100px;
+}
+.container{
+    box-sizing: border-box;
+    max-width:1170px;
+    padding: 0 15px;
+    margin:0 auto;
+}
+.section-third__components  {
+    display: flex;
+    
+    background: #F4F5F6;
+    border-radius: 50px;
+}
+.section-third__title{
+    font-size: 18px;
+    line-height: 18px;
+    color: #576D81;
+}
+.section-third__main-text{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #0F2336;
+}
+.section-third__text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #576D81;
+}
+.section-third__img{
+    position: relative;
+}
+.phone{
+    display: block;
+    position: absolute;
+    top:-63px;
+    left:163px;
+    z-index:2;
+}
+.crisps{
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left:384px;
+    z-index:3;
+}
+.glass{
+    display: block;
+    position: absolute;
+    bottom: 102px;
+    left:27px;
+    z-index:1;
+}
+.section-third__text-block{
+    padding: 117px 160px 97px 560px;
+}
+@media screen and (max-width:1025px){
+    .section-third__text-block{ 
+        padding: 117px 120px 97px 500px;
+    }
+}
+@media screen and (max-width:769px){
+    .section-third__text-block{ 
+        padding: 117px 60px 97px 450px;
+    }
+    .section-third__title{
+        font-size: 14px;
+        line-height: 14px;
+        color: #576D81;
+    }
+    .section-third__main-text{
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        color: #0F2336;
+    }
+    .section-third__text{
+        font-size: 12px;
+        line-height: 18px;
+        color: #576D81;
+    }
+    .phone{
+        max-height: 550px;
+    }
+    .crisps{
+
+    }
+    .glass{
+        max-height: 350px;
+    }
+}
+@media screen and (max-width:576px){
+    .section-third__text-block{ 
+        padding: 117px 30px 97px 350px;
+    }
+    .section-third__title{
+        font-size: 14px;
+        line-height: 14px;
+        color: #576D81;
+    }
+    .section-third__main-text{
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        color: #0F2336;
+    }
+    .section-third__text{
+        font-size: 12px;
+        line-height: 18px;
+        color: #576D81;
+    }
+    .phone{
+        max-height: 350px;
+    }
+    .crisps{
+        max-height:80px;    
+    }
+    .glass{
+        max-height: 200px;
+    }
+}
